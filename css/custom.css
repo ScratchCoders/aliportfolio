@@ -1,0 +1,47 @@
+/* General CSS */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+
+div.container a {
+    color: #ffffff;
+}
+
+div.container a:hover {
+    color: #C66C49;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+/* Jumbotron */
+
+.full-image {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/EEN1u9k7qy8/1920x1080');
+    box-shadow: inset 0 0 0 1000px rgba(198,108,73,0.4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ h1.title {
+     font-size: 48px;
+     color: #ffffff;
+     font-weight: 600;
+ }
+
+ p.subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
