@@ -45,3 +45,54 @@ div.container a:hover {
     color: #ffffff;
     font-weight: 300;
 }
+
+/* About */
+
+#about {
+    margin: 160px 0px;
+}
+
+h1.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p.secion-body {
+    line-height: 36px;
+}
+
+/* Skill */
+
+#skills {
+    background-color: #FFFAF2;
+    padding: 160px 0;
+}
+
+div.skill-title {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+div.skill-profile {
+    margin-bottom: 40px;
+}
+
+div.each-skill {
+    margin-bottom: 15px;
+}
+
+div.progress {
+    background-color: #F5D6AB;
+    border-radius: 0;
+}
+
+div.p-bar-color {
+    background-color: #C66C49;
+}
+
+/* Portfolio */
+
+#portfolio {
+    padding: 160px 0;
+}
