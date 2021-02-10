@@ -22,6 +22,10 @@ div.container a:hover {
     margin-right: 20px;
 }
 
+div.container a.navbar-brand:hover {
+    color: #333333;
+}
+
 /* Jumbotron */
 
 .full-image {
@@ -140,3 +144,44 @@ div.p-bar-color {
     background-color: #F5D6AB; /* Add a dark-grey background on hover */
     color: #333333;
   }
+
+  /* Scroll to change navbar background */
+
+  .navbar-fixed-top.scrolled {
+    background-color: #C66C49 !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled .nav-link {
+    color:#fff;
+  }
+
+  .navbar-fixed-top.scrolled .nav-link:hover {
+    color: #333333;
+  }
+
+  .carousel-control-next {
+    right: -220px;
+}
+
+.carousel-control-prev {
+    left: -220px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: #C66C49;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color:#C66C49;
+}
