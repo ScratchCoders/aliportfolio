@@ -161,27 +161,14 @@ div.p-bar-color {
   }
 
   .carousel-control-next {
-    right: -220px;
+    right: -180px;
 }
 
 .carousel-control-prev {
-    left: -220px;
+    left: -180px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 40px;
-  color: #C66C49;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 40px;
-  color:#C66C49;
+.carousel-control-next,
+.carousel-control-prev, .navbar-toggler-icon /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
