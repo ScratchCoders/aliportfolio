@@ -59,7 +59,7 @@ div.container a.navbar-brand:hover {
 h1.section-title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: #333333;
 }
 
@@ -171,4 +171,14 @@ div.p-bar-color {
 .carousel-control-next,
 .carousel-control-prev, .navbar-toggler-icon /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+/* Spotlight CSS */
+
+.spotlight_link {
+    color: #333333;
+}
+
+.spotlight_text {
+    margin-top: 24px;
 }
