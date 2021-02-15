@@ -1,0 +1,184 @@
+/* General CSS */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar div.container a {
+    color: #ffffff;
+}
+
+div.container a:hover {
+    color: #C66C49;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+div.container a.navbar-brand:hover {
+    color: #333333;
+}
+
+/* Jumbotron */
+
+.full-image {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/hero_image.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(198,108,73,0.4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ h1.title {
+     font-size: 48px;
+     color: #ffffff;
+     font-weight: 600;
+ }
+
+ p.subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/* About */
+
+#about {
+    margin: 160px 0px;
+}
+
+h1.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #333333;
+}
+
+p.secion-body {
+    line-height: 36px;
+}
+
+/* Skill */
+
+#skills {
+    background-color: #FFFAF2;
+    padding: 160px 0;
+}
+
+div.skill-title {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+div.skill-profile {
+    margin-bottom: 40px;
+}
+
+div.each-skill {
+    margin-bottom: 15px;
+}
+
+div.progress {
+    background-color: #F5D6AB;
+    border-radius: 0;
+}
+
+div.p-bar-color {
+    background-color: #C66C49;
+}
+
+/* Portfolio */
+
+#portfolio {
+    padding: 160px 0;
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: #FFFAF2;
+    padding: 160px 0;
+}
+
+#contact .con-link {
+    color: #333333;
+}
+
+#contact .con-link:hover {
+    color: #C66C49;
+}
+
+#contact .con-phone {
+    color: #333333;
+}
+
+/* Footer */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #C66C49; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #F5D6AB; /* Add a dark-grey background on hover */
+    color: #333333;
+  }
+
+  /* Scroll to change navbar background */
+
+  .navbar-fixed-top.scrolled {
+    background-color: #C66C49 !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled .nav-link {
+    color:#fff;
+  }
+
+  .navbar-fixed-top.scrolled .nav-link:hover {
+    color: #333333;
+  }
+
+  .carousel-control-next {
+    right: -180px;
+}
+
+.carousel-control-prev {
+    left: -180px;
+}
+
+.carousel-control-next,
+.carousel-control-prev, .navbar-toggler-icon /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/* Spotlight CSS */
+
+.spotlight_link {
+    color: #333333;
+}
+
+.spotlight_text {
+    margin-top: 24px;
+}
